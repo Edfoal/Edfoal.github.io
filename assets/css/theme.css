@@ -143,6 +143,12 @@ a.bg-light:hover, a.bg-light:focus {
 a.bg-dark:hover, a.bg-dark:focus {
   background-color: #1d1b25 !important;
 }
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transform: scale(1.5);
+}
 
 .text-primary {
   color: #0757e1 !important;
