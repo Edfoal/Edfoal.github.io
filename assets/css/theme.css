@@ -33,6 +33,14 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+@font-face{
+  font-family: android;
+  src: url(../fonts/Android.ttf);
+}
+.logoname{
+  font-family: android;
+  color: black;
+}
 
 a:hover {
   color: #5641df;
