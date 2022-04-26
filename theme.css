@@ -71,7 +71,10 @@ a:hover {
 a.bg-primary:hover, a.bg-primary:focus {
   background-color: #5d47eb !important;
 }
-
+.vl{
+  border-left: 6px grey;
+  height: 10px;
+}
 .bg-accent {
   background-color: #FF3D85 !important;
 }
