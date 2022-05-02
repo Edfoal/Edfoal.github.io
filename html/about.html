@@ -249,11 +249,11 @@
             <div class="divider mx-auto"></div>
           </div>
           <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
-            <!-- <div class="item wow zoomIn">
-              <img src="../assets/img/clients/Colleges/axis.png" alt="">
-            </div> -->
             <div class="item wow zoomIn">
-              <img src="../assets/img/clients/Colleges/ghanshyam_College.jpg" alt="">
+              <img src="../assets/img/clients/Colleges/axis.png" alt="">
+            </div>
+            <div class="item wow zoomIn">
+              <img src="../assets/img/clients/Colleges/ghanshyam.jpg" alt="">
             </div>
             <!-- <div class="item wow zoomIn">
               <img src="../assets/img/clients/Colleges/lloyd.png" alt="">
@@ -262,11 +262,11 @@
               <img src="../assets/img/clients/Colleges/Raj_college.png" alt="">
             </div>
             <div class="item wow zoomIn">
-              <img src="../assets/img/clients/Colleges/Rajshri_College.png" alt="">
+              <img src="../assets/img/clients/Colleges/Rajshri.png" alt="">
             </div>
-            <div class="item wow zoomIn">
+            <!-- <div class="item wow zoomIn">
               <img src="../assets/img/clients/Colleges/REC.jpg" alt="">
-            </div>
+            </div> -->
           </div>
         </div> <!-- .container-fluid -->
       </div>
@@ -278,9 +278,16 @@
       <div class="row justify-content-center mb-5">
         <div class="col-lg-6 py-3">
           <center>
+
           <a href="../index.html"><img src="../assets/img/Logo/edfoallogo.png" alt="logo"></a>
+          <div style="line-height: 0%;">
           <h3 class="logoname" style="color: black;"><br>EdFoal</span></h3>
-          <p style="color: black;">Education For All</p>
+          <p style="color: grey;">Education For All</p>
+        </div>
+        <p style="color: #000000; "> Sangam Vihar, Delhi, New Delhi - 110080</p>
+        <p style="line-height: 2%;"><a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@edfoal.com</a></p>
+
         </center>
           <!-- <p><a href="#">info@edfoal.com</a></p> -->
         </div>
@@ -300,9 +307,9 @@
           </form> -->
 
           <div class="sosmed-button mt-4">
-            <a href="https://www.instagram.com/ed_foal/?hl=en"><span class="mai-logo-facebook-f"></span></a>
+            <a href="https://www.facebook.com/EdFoal-104575148222056/"><span class="mai-logo-facebook-f"></span></a>
             <a href="https://twitter.com/EdFoal"><span class="mai-logo-twitter"></span></a>
-            <a href="info@edfoal.com"><span class="mai-logo-google"></span></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><span class="mai-logo-google"></span></a>
             <a href="https://www.linkedin.com/company/edfoal/posts/?feedView=all"><span
                 class="mai-logo-linkedin"></span></a>
           </div>
@@ -312,6 +319,12 @@
       <div class="row">
         <div class="col-sm-6 py-2">
           <p id="copyright">&copy; 2022 <a href="../index.html">EdFoal</a>. All rights reserved</p>
+        </div>
+        
+        <div class="col-sm-6 py-2" style="text-align: right;">
+          <!-- <center> -->
+          <span> Last Update : </span>
+            <p id="demo"></p>
         </div>
         <!-- <div class="col-sm-6 py-2 text-right">
           <div class="d-inline-block px-3">
@@ -341,6 +354,10 @@
   <script src="../assets/js/google-maps.js"></script>
 
   <script src="../assets/js/theme.js"></script>
+  <script>
+    const date = new Date(document.lastModified);
+    document.getElementById("demo").innerHTML = date;
+  </script>
 
 </body>
 

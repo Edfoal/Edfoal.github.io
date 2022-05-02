@@ -9,8 +9,8 @@
 
     <meta name="description"
     content="Your partner in shaping the future. We at EdFoal help people achieve their career goals by building a personalized roadmap consisting of learning resources, mentors, and step-wise targets.">
-  <meta name="copyright" content="EdFoal">
-  <meta name="keywords"
+    <meta name="copyright" content="EdFoal">
+    <meta name="keywords"
     content="edfoal, education, education for all, jobs, interview, internships, mentor, roadmaps, programming, technology, company, IT jobs, colleges, engineering, development, Viond Singh, Himanshu periwaa, education, learning, roadmap, personalised roadmap, software development training, site reliability engineer training, front end developer training, sdet training, data science training, engineer, computer science jobs, training with placementl">
 
     <title>EdFoal</title>
@@ -131,8 +131,13 @@
             <div class="col-lg-6 py-3">
               <center>
                 <a href="../index.html"><img src="../assets/img/Logo/edfoallogo.png" alt="logo"></a>
+                <div style="line-height: 0%;">
                 <h3 class="logoname" style="color: black;">EdFoal</h3>
-                <P style="color: black;">Education For All</P>
+                <P style="color: grey;">Education For All</P>
+              </div>
+              <p style="color: #000000; "> Sangam Vihar, Delhi, New Delhi - 110080</p>
+              <p style="line-height: 2%;"><a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@edfoal.com</a></p>
               </center>
               <!-- <p><a href="#">info@edfoal.com</a></p> -->
             </div>
@@ -153,9 +158,9 @@
               </form> -->
     
               <div class="sosmed-button mt-4">
-                <a href="https://www.instagram.com/ed_foal/?hl=en"><span class="mai-logo-facebook-f"></span></a>
+                <a href="https://www.facebook.com/EdFoal-104575148222056/"><span class="mai-logo-facebook-f"></span></a>
                 <a href="https://twitter.com/EdFoal"><span class="mai-logo-twitter"></span></a>
-                <a href="info@edfoal.com"><span class="mai-logo-google"></span></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><span class="mai-logo-google"></span></a>
                 <a href="https://www.linkedin.com/company/edfoal/posts/?feedView=all"><span
                     class="mai-logo-linkedin"></span></a>
               </div>
@@ -165,6 +170,11 @@
           <div class="row">
             <div class="col-sm-6 py-2">
               <p id="copyright">&copy; 2022 <a href="index.html">EdFoal</a>. All rights reserved</p>
+            </div>
+            <div class="col-sm-6 py-2" style="text-align: right;">
+              <!-- <center> -->
+              <span> Last Update : </span>
+                <p id="demo"></p>
             </div>
             <!-- <div class="col-sm-6 py-2 text-right">
               <div class="d-inline-block px-3">
@@ -193,4 +203,9 @@
     <script src="../assets/js/google-maps.js"></script>
 
     <script src="../assets/js/theme.js"></script>
+    
+    <script>
+      const date = new Date(document.lastModified);
+      document.getElementById("demo").innerHTML = date;
+    </script>
 </body>
